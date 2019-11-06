@@ -1,0 +1,33 @@
+groups:
+- name: configs/dba/local/hosts.rules.yml
+  rules:
+  - record: instance:disk_usage_ratio:value
+    expr: (collectd_df_df_complex{type="free"} / ignoring(type) (sum by(dc, df, job,
+      instance, exported_instance, platform) (collectd_df_df_complex)))
+    labels:
+      type: free
+  - record: instance:disk_usage_ratio:value
+    expr: (collectd_df_df_complex{type="used"} / ignoring(type) (sum by(dc, df, job,
+      instance, exported_instance, platform) (collectd_df_df_complex)))
+    labels:
+      type: used
+  - record: instance:disk_usage_ratio:value
+    expr: (collectd_df_df_complex{type="reserved"} / ignoring(type) (sum by(dc, df,
+      job, instance, exported_instance, platform) (collectd_df_df_complex)))
+    labels:
+      type: reserved
+  - record: instance:database_size:value
+    expr: sum(collectd_mysql_gauge{mysql="db_size"}) by (dc, instance, type)
+  - record: instance:database_replication_lag:value
+    expr: sum (collectd_mysql_gauge{mysql="slave",type="slave_lag"}) by(instance, dc)
+  - record: instance:innodb_log_file_size:value
+    expr: sum(2*(collectd_mysql_gauge{mysql="variables",type="innodb_log_file_size"}/1024/1024)) by (instance)
+  - record: instance:innodb_redo_log_occupancy:value
+    expr: sum(delta(collectd_mysql_counter_total{mysql="innodb",type="os_log_bytes_written"}[5m])/1024/1024) by (instance, dc)
+  - record: instance:backup_innodb_logs_written:value
+    expr: sum(backup_innodb_logs_written/1024/1024) by (instance, dc)
+  - record: instance:innodb_log_written_avg:value
+    expr: sum(collectd_mysql_counter_total{mysql="innodb",type="os_log_bytes_written"}/1024/1024) by (instance, dc) / sum(collectd_mysql_gauge{type="Uptime"}) by (instance, dc)
+  # capacity indicator to handle 2x the time of backup and 4x batch load
+  - record: instance:backup_innodb_log_capacity:value
+    expr: sum(instance:innodb_log_written_avg:value) by (instance, dc) * sum(backup_duration) by (instance, dc) *2 *4

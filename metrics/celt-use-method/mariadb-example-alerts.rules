@@ -1,0 +1,142 @@
+groups:
+- name: configs/dba/local/mariadb.alert.rules.yml
+  rules:
+  - alert: ReplicationLag
+    expr: sum by(instance, dc, platform) (collectd_mysql_gauge{mysql="slave",type="slave_lag"})
+      > 300
+    for: 10m
+    labels:
+      severity: ticket
+    annotations:
+      description: Replication lag on {{ $labels.instance }}
+      grafana_dashboard: https://grafana.tld
+      documentation: https://myplaybooklink
+      summary: Replication lag on {{ $labels.instance }}
+    
+  - alert: ReplicationNotRunning
+    expr: sum by(instance, dc, platform) (collectd_mysql_gauge{mysql="slave",type="slave_running"})
+      == 0
+    for: 10m
+    labels:
+      severity: ticket
+    annotations:
+      description: Replication is not running on {{ $labels.instance }}
+      grafana_dashboard: https://grafana.tld
+      documentation: https://myplaybooklink
+      summary: Replication is not running on {{ $labels.instance }}
+    
+  - alert: ThreadsUsage
+    expr: sum by(instance, dc, platform) (collectd_mysql_gauge{mysql="status",type="Threads_connected"})
+      / sum by(instance, dc, platform) (collectd_mysql_gauge{mysql="variables",type="max_connections"})
+      > 0.80
+    for: 10m
+    labels:
+      severity: ticket
+    annotations:
+      description: Threads usage is higher than 80% on {{ $labels.instance }}
+      grafana_dashboard: https://grafana.tld
+      documentation: https://myplaybooklink
+      summary: Threads usage is higher than 80% on {{ $labels.instance }}
+    
+  - alert: MariaDBMyDumperBackup
+    expr: sum by(dc, platform, instance) (node_backup_status{job="node-exporter"}) != 0
+    labels:
+      severity: ticket
+    annotations:
+      description: MariaDB MyDumper backup returned an error on {{ $labels.instance }}.
+      documentation: https://myplaybooklink
+      summary: Backup job using MyDumper on {{ $labels.instance }} returned an error.
+    
+  - alert: MariaDBMariaBackup
+    expr: sum by(dc, platform, instance) (backup_status{job="node-exporter"}) != 0
+    labels:
+      severity: ticket
+    annotations:
+      description: MariaDB backup returned an error on {{ $labels.instance }}.
+      documentation: https://myplaybooklink
+      summary: Backup job using MariaBackup on {{ $labels.instance }} returned an error.
+    
+  - alert: MariaDBBackupValidation
+    expr: sum by(dc, platform, instance) (validate_status{job="node-exporter"}) != 0
+    labels:
+      severity: ticket
+    annotations:
+      description: Last MariaBackup backup from {{ $labels.instance }} is not valid.
+      documentation: https://myplaybooklink
+      summary: Validation job using MariaBackup on {{ $labels.instance }} failed.
+  
+  - alert: InnodbLogOccupancy
+    expr: (sum by(instance) (instance:innodb_log_written_avg:value) * sum by(instance) (backup_duration))*100 / instance:innodb_log_file_size:value > 80
+    labels:
+      severity: ticket
+    annotations:
+      description: InnoDB Log occupancy is higher than 80% for {{ $labels.instance }}.
+      documentation: https://myplaybooklink
+      summary: InnoDB Log occupancy is higher than 80% for {{ $labels.instance }}.
+  
+  - alert: InnodbRedoLogUsage
+    expr: (instance:innodb_redo_log_occupancy:value/ instance:innodb_log_file_size:value) * 100 > 80
+    for: 10m
+    labels:
+      severity: ticket
+    annotations:
+      description: The innoDB redo log usage is higher that 80% on {{ $labels.instance }}.
+      documentation: https://myplaybooklink
+      summary: The innoDB redo log usage is higher that 80% on {{ $labels.instance }}.
+    
+# Alerts with severity based on the environment
+  - record: context
+    expr: vector(1)
+    labels:
+      env: '{ENV}'
+
+  - alert: ThreadsUsage
+    expr: sum by(instance, dc, platform) (collectd_mysql_gauge{mysql="status",type="Threads_connected"})
+      / sum by(instance, dc, platform) (collectd_mysql_gauge{mysql="variables",type="max_connections"})
+      > 0.95 and on() context{env="prod"}
+    for: 10m
+    labels:
+      severity: page
+    annotations:
+      description: Threads usage is higher than 95% on {{ $labels.instance }}
+      grafana_dashboard: https://grafana.tld
+      documentation: https://myplaybooklink
+      summary: Threads usage is higher than 95% on {{ $labels.instance }}
+    
+  - alert: MariaDbDown
+    expr: (collectd_mysql_gauge{type="Uptime"} or ignoring(type, mysql, exported_instance)
+      up{job="collectd-metrics"} * 0) == 0 and ignoring(type, mysql, exported_instance)
+      up{job="collectd-metrics"} == 1 and on() context{env="prod"}
+    for: 10m
+    labels:
+      issue_type: Alert
+      perimeter: dba
+      project: DBAIN
+      severity: page
+    annotations:
+      description: MariaDB {{ $labels.instance }} has been down for
+        more than 10 minutes.
+      documentation: https://myplaybooklink
+      grafana_dashboard:https://grafana.tld
+      summary: 'MariaDB down : {{ $labels.instance }}'
+    
+  - alert: MariaDBMariaBackupNotRunning
+    expr: (time() - node_textfile_mtime{file="backup-restore.prom"}) > 129600
+    labels:
+      severity: ticket
+    annotations:
+      description: MariaDB backup didn't run for the last 36h on {{ $labels.instance }}.
+      documentation: https://myplaybooklink
+      summary: Backup job using MariaBackup on {{ $labels.instance }} did not run.
+    
+  - alert: CollectdExporterDown
+    expr: up{job="collectd-metrics"} == 0 and on() context{env="prod"}
+    for: 10m
+    labels:
+      severity: page
+    annotations:
+      description: The collectd exporter on {{ $labels.instance }} has been down for
+        more than 10 minutes.
+      documentation: https://myplaybooklink
+      summary: 'Collectd exporter down : {{ $labels.instance }}'
+    

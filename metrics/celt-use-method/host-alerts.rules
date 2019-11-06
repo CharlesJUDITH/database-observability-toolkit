@@ -1,0 +1,43 @@
+groups:
+- name: configs/dba/local/host-alerts.rules.yml
+  rules:
+  - alert: DiskFullWarning
+    expr: instance:disk_usage_ratio:value{df!~"boot|var-opt-nfs.*",type="free"} < 0.15 and instance:disk_usage_ratio:value{df!~"boot|var-opt-nfs.*",type="free"} >= 0.05
+    for: 30m
+    labels:
+      issue_type: Alert
+      perimeter: dba
+      project: DBAIN
+      severity: ticket
+    annotations:
+      description: '{{ $labels.df }} on {{ $labels.instance }} (dc:{{ $labels.dc }})
+        has a free space between 5% and 15% since at least 30m (current value: {{
+        $value }})'
+      documentation: https://myplaybooklink
+      summary: Warning low free space on {{ $labels.instance }}
+  - alert: DiskFullCritical
+    expr: instance:disk_usage_ratio:value{df!~"boot|var-opt-nfs.*",type="free"} < 0.05
+    for: 30m
+    labels:
+      issue_type: Alert
+      perimeter: dba
+      project: DBAIN
+      severity: ticket
+    annotations:
+      description: '{{ $labels.df }} on {{ $labels.instance }} (dc:{{ $labels.dc }})
+        has a free space under 5% since at least 30m (current value: {{ $value }})'
+      documentation: https://myplaybooklink
+      summary: Critical low free space on {{ $labels.instance }}
+  - alert: MariadbDiskFree
+    expr: instance:disk_usage_ratio:value{df="var-opt",type="free"} < 0.25
+    for: 30m
+    labels:
+      issue_type: Alert
+      perimeter: dba
+      project: DBAIN
+      severity: ticket
+    annotations:
+      description: '{{ $labels.df }} on {{ $labels.instance }} (dc:{{ $labels.dc }})
+        has a free space under 25% since at least 30m (current value: {{ $value }})'
+      documentation: https://myplaybooklink
+      summary: Critical low free space on {{ $labels.instance }}
