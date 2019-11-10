@@ -1,0 +1,11 @@
+groups:
+- name: capacity.rules.yml
+  rules:
+  - record: mariadb_disk:saturation:ratio
+    expr: sum(instance:disk_usage_ratio:value{df!~"boot|var-opt-nfs.*",type="free"}) by (instance,dc)/sum(instance:disk_usage_ratio:value{df!~"boot|var-opt-nfs.*",type="reserved"}) by (instance,dc)
+  - record: mariadb_cpu:saturation:ratio
+    expr: sum(collectd_aggregation_cpu_total{aggregation="cpu-average",type=~"system|user"}) by (instance,dc)/sum(collectd_aggregation_cpu_total{aggregation="cpu-average",type="idle"}) by (instance,dc)
+  - record: mariadb_memory:saturation:ratio
+    expr: sum(collectd_memory{memory="free"}) by (instance,dc) / sum(collectd_memory{memory=~"free|used|cached|buffered|slab_.*"}) by (instance,dc)
+  - record: mariadb_thread:saturation:ratio
+    expr: sum by(instance, dc, platform) (collectd_mysql_gauge{mysql="status",type="Threads_connected"}) / sum by(instance, dc, platform) (collectd_mysql_gauge{mysql="variables",type="max_connections"})

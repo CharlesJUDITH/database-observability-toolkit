@@ -2,6 +2,8 @@
 
 This Github project should help you to make your database service observable.
 
+For now this is compatible with MySQL and MariaDB only.
+
 This page is currently in WIP (Work In Progress).
 
 ## The USE method
@@ -38,11 +40,15 @@ CELT + USE method aka the seven golden signals
 
     Concurrency: number of simultaneous requests
     Error rate: errors/sec
-    Latency: reponsonse time, queue/wait time
+    Latency: response time, queue/wait time
     Throughput: query per seconds (QPS)
+
+Examples:
+https://medium.com/@steve.mushero/mysqls-sre-golden-signals-67e2adf88824
 
 ## TODO
 
 - Complete this page with links.
 - Complete the log and metrics part
 - Add screenshots
+- Add compatibility for PostgreSQL

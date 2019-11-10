@@ -1,0 +1,823 @@
+# HELP collectd_aggregation_cpu_total write_prometheus plugin: 'aggregation' Type: 'cpu', Dstype: 'derive', Dsname: 'value'
+# TYPE collectd_aggregation_cpu_total counter
+collectd_aggregation_cpu_total{aggregation="cpu-average",type="idle",instance="myhostfqdn"} 84031802 1573227495275
+collectd_aggregation_cpu_total{aggregation="cpu-average",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_aggregation_cpu_total{aggregation="cpu-average",type="nice",instance="myhostfqdn"} 35 1573227495275
+collectd_aggregation_cpu_total{aggregation="cpu-average",type="softirq",instance="myhostfqdn"} 208852 1573227495275
+collectd_aggregation_cpu_total{aggregation="cpu-average",type="steal",instance="myhostfqdn"} 0 1573227495275
+collectd_aggregation_cpu_total{aggregation="cpu-average",type="system",instance="myhostfqdn"} 1640062 1573227495275
+collectd_aggregation_cpu_total{aggregation="cpu-average",type="user",instance="myhostfqdn"} 10501224 1573227495275
+collectd_aggregation_cpu_total{aggregation="cpu-average",type="wait",instance="myhostfqdn"} 227119 1573227495275
+# HELP collectd_contextswitch_total write_prometheus plugin: 'contextswitch' Type: 'contextswitch', Dstype: 'derive', Dsname: 'value'
+# TYPE collectd_contextswitch_total counter
+collectd_contextswitch_total{instance="myhostfqdn"} 462355143123 1573227495275
+# HELP collectd_cpu_total write_prometheus plugin: 'cpu' Type: 'cpu', Dstype: 'derive', Dsname: 'value'
+# TYPE collectd_cpu_total counter
+collectd_cpu_total{cpu="0",type="idle",instance="myhostfqdn"} 1861984335 1573227495276
+collectd_cpu_total{cpu="0",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="0",type="nice",instance="myhostfqdn"} 93 1573227495275
+collectd_cpu_total{cpu="0",type="softirq",instance="myhostfqdn"} 11840865 1573227495276
+collectd_cpu_total{cpu="0",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="0",type="system",instance="myhostfqdn"} 42193617 1573227495275
+collectd_cpu_total{cpu="0",type="user",instance="myhostfqdn"} 254248757 1573227495275
+collectd_cpu_total{cpu="0",type="wait",instance="myhostfqdn"} 9020018 1573227495275
+collectd_cpu_total{cpu="1",type="idle",instance="myhostfqdn"} 1880601647 1573227495276
+collectd_cpu_total{cpu="1",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="1",type="nice",instance="myhostfqdn"} 79 1573227495275
+collectd_cpu_total{cpu="1",type="softirq",instance="myhostfqdn"} 6913707 1573227495276
+collectd_cpu_total{cpu="1",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="1",type="system",instance="myhostfqdn"} 32759152 1573227495275
+collectd_cpu_total{cpu="1",type="user",instance="myhostfqdn"} 260037802 1573227495275
+collectd_cpu_total{cpu="1",type="wait",instance="myhostfqdn"} 1045874 1573227495275
+collectd_cpu_total{cpu="10",type="idle",instance="myhostfqdn"} 1907723614 1573227495276
+collectd_cpu_total{cpu="10",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="10",type="nice",instance="myhostfqdn"} 29 1573227495275
+collectd_cpu_total{cpu="10",type="softirq",instance="myhostfqdn"} 5716174 1573227495276
+collectd_cpu_total{cpu="10",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="10",type="system",instance="myhostfqdn"} 29817034 1573227495275
+collectd_cpu_total{cpu="10",type="user",instance="myhostfqdn"} 235545447 1573227495275
+collectd_cpu_total{cpu="10",type="wait",instance="myhostfqdn"} 829193 1573227495275
+collectd_cpu_total{cpu="11",type="idle",instance="myhostfqdn"} 1906969784 1573227495276
+collectd_cpu_total{cpu="11",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="11",type="nice",instance="myhostfqdn"} 25 1573227495275
+collectd_cpu_total{cpu="11",type="softirq",instance="myhostfqdn"} 5293885 1573227495276
+collectd_cpu_total{cpu="11",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="11",type="system",instance="myhostfqdn"} 29653216 1573227495275
+collectd_cpu_total{cpu="11",type="user",instance="myhostfqdn"} 237950629 1573227495275
+collectd_cpu_total{cpu="11",type="wait",instance="myhostfqdn"} 763852 1573227495275
+collectd_cpu_total{cpu="12",type="idle",instance="myhostfqdn"} 2105021066 1573227495276
+collectd_cpu_total{cpu="12",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="12",type="nice",instance="myhostfqdn"} 131 1573227495275
+collectd_cpu_total{cpu="12",type="softirq",instance="myhostfqdn"} 130810 1573227495276
+collectd_cpu_total{cpu="12",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="12",type="system",instance="myhostfqdn"} 16182456 1573227495275
+collectd_cpu_total{cpu="12",type="user",instance="myhostfqdn"} 65408398 1573227495275
+collectd_cpu_total{cpu="12",type="wait",instance="myhostfqdn"} 5340960 1573227495275
+collectd_cpu_total{cpu="13",type="idle",instance="myhostfqdn"} 2106276853 1573227495276
+collectd_cpu_total{cpu="13",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="13",type="nice",instance="myhostfqdn"} 516 1573227495275
+collectd_cpu_total{cpu="13",type="softirq",instance="myhostfqdn"} 118316 1573227495276
+collectd_cpu_total{cpu="13",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="13",type="system",instance="myhostfqdn"} 15756712 1573227495275
+collectd_cpu_total{cpu="13",type="user",instance="myhostfqdn"} 64683350 1573227495275
+collectd_cpu_total{cpu="13",type="wait",instance="myhostfqdn"} 5375808 1573227495275
+collectd_cpu_total{cpu="14",type="idle",instance="myhostfqdn"} 2107256491 1573227495276
+collectd_cpu_total{cpu="14",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="14",type="nice",instance="myhostfqdn"} 111 1573227495275
+collectd_cpu_total{cpu="14",type="softirq",instance="myhostfqdn"} 117036 1573227495276
+collectd_cpu_total{cpu="14",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="14",type="system",instance="myhostfqdn"} 15679640 1573227495275
+collectd_cpu_total{cpu="14",type="user",instance="myhostfqdn"} 63865750 1573227495275
+collectd_cpu_total{cpu="14",type="wait",instance="myhostfqdn"} 5344457 1573227495275
+collectd_cpu_total{cpu="15",type="idle",instance="myhostfqdn"} 2107240228 1573227495276
+collectd_cpu_total{cpu="15",type="interrupt",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="15",type="nice",instance="myhostfqdn"} 119 1573227495275
+collectd_cpu_total{cpu="15",type="softirq",instance="myhostfqdn"} 120733 1573227495276
+collectd_cpu_total{cpu="15",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="15",type="system",instance="myhostfqdn"} 15905403 1573227495275
+collectd_cpu_total{cpu="15",type="user",instance="myhostfqdn"} 63658352 1573227495275
+collectd_cpu_total{cpu="15",type="wait",instance="myhostfqdn"} 5333524 1573227495275
+collectd_cpu_total{cpu="2",type="idle",instance="myhostfqdn"} 1886225907 1573227495276
+collectd_cpu_total{cpu="2",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="2",type="nice",instance="myhostfqdn"} 33 1573227495275
+collectd_cpu_total{cpu="2",type="softirq",instance="myhostfqdn"} 6012090 1573227495276
+collectd_cpu_total{cpu="2",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="2",type="system",instance="myhostfqdn"} 31772025 1573227495275
+collectd_cpu_total{cpu="2",type="user",instance="myhostfqdn"} 255650591 1573227495275
+collectd_cpu_total{cpu="2",type="wait",instance="myhostfqdn"} 902505 1573227495275
+collectd_cpu_total{cpu="3",type="idle",instance="myhostfqdn"} 1891921033 1573227495276
+collectd_cpu_total{cpu="3",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="3",type="nice",instance="myhostfqdn"} 26 1573227495275
+collectd_cpu_total{cpu="3",type="softirq",instance="myhostfqdn"} 5576874 1573227495276
+collectd_cpu_total{cpu="3",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="3",type="system",instance="myhostfqdn"} 31226727 1573227495275
+collectd_cpu_total{cpu="3",type="user",instance="myhostfqdn"} 250032339 1573227495275
+collectd_cpu_total{cpu="3",type="wait",instance="myhostfqdn"} 844423 1573227495275
+collectd_cpu_total{cpu="4",type="idle",instance="myhostfqdn"} 2014216141 1573227495276
+collectd_cpu_total{cpu="4",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="4",type="nice",instance="myhostfqdn"} 480 1573227495275
+collectd_cpu_total{cpu="4",type="softirq",instance="myhostfqdn"} 216664 1573227495276
+collectd_cpu_total{cpu="4",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="4",type="system",instance="myhostfqdn"} 23357071 1573227495275
+collectd_cpu_total{cpu="4",type="user",instance="myhostfqdn"} 147481955 1573227495275
+collectd_cpu_total{cpu="4",type="wait",instance="myhostfqdn"} 5547118 1573227495275
+collectd_cpu_total{cpu="5",type="idle",instance="myhostfqdn"} 2085366456 1573227495276
+collectd_cpu_total{cpu="5",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="5",type="nice",instance="myhostfqdn"} 1187 1573227495275
+collectd_cpu_total{cpu="5",type="softirq",instance="myhostfqdn"} 148321 1573227495276
+collectd_cpu_total{cpu="5",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="5",type="system",instance="myhostfqdn"} 17161421 1573227495275
+collectd_cpu_total{cpu="5",type="user",instance="myhostfqdn"} 83764135 1573227495275
+collectd_cpu_total{cpu="5",type="wait",instance="myhostfqdn"} 5443999 1573227495275
+collectd_cpu_total{cpu="6",type="idle",instance="myhostfqdn"} 2098135371 1573227495276
+collectd_cpu_total{cpu="6",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="6",type="nice",instance="myhostfqdn"} 501 1573227495275
+collectd_cpu_total{cpu="6",type="softirq",instance="myhostfqdn"} 129046 1573227495276
+collectd_cpu_total{cpu="6",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="6",type="system",instance="myhostfqdn"} 16469907 1573227495275
+collectd_cpu_total{cpu="6",type="user",instance="myhostfqdn"} 71861266 1573227495275
+collectd_cpu_total{cpu="6",type="wait",instance="myhostfqdn"} 5479772 1573227495275
+collectd_cpu_total{cpu="7",type="idle",instance="myhostfqdn"} 2100457769 1573227495276
+collectd_cpu_total{cpu="7",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="7",type="nice",instance="myhostfqdn"} 108 1573227495275
+collectd_cpu_total{cpu="7",type="softirq",instance="myhostfqdn"} 127629 1573227495276
+collectd_cpu_total{cpu="7",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="7",type="system",instance="myhostfqdn"} 16510757 1573227495275
+collectd_cpu_total{cpu="7",type="user",instance="myhostfqdn"} 69562836 1573227495275
+collectd_cpu_total{cpu="7",type="wait",instance="myhostfqdn"} 5464213 1573227495275
+collectd_cpu_total{cpu="8",type="idle",instance="myhostfqdn"} 1901622838 1573227495276
+collectd_cpu_total{cpu="8",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="8",type="nice",instance="myhostfqdn"} 25 1573227495275
+collectd_cpu_total{cpu="8",type="softirq",instance="myhostfqdn"} 5483415 1573227495276
+collectd_cpu_total{cpu="8",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="8",type="system",instance="myhostfqdn"} 30294652 1573227495275
+collectd_cpu_total{cpu="8",type="user",instance="myhostfqdn"} 241871472 1573227495275
+collectd_cpu_total{cpu="8",type="wait",instance="myhostfqdn"} 809726 1573227495275
+collectd_cpu_total{cpu="9",type="idle",instance="myhostfqdn"} 1903648488 1573227495276
+collectd_cpu_total{cpu="9",type="interrupt",instance="myhostfqdn"} 0 1573227495275
+collectd_cpu_total{cpu="9",type="nice",instance="myhostfqdn"} 103 1573227495275
+collectd_cpu_total{cpu="9",type="softirq",instance="myhostfqdn"} 5283213 1573227495276
+collectd_cpu_total{cpu="9",type="steal",instance="myhostfqdn"} 0 1573227495276
+collectd_cpu_total{cpu="9",type="system",instance="myhostfqdn"} 29918329 1573227495275
+collectd_cpu_total{cpu="9",type="user",instance="myhostfqdn"} 240838963 1573227495275
+collectd_cpu_total{cpu="9",type="wait",instance="myhostfqdn"} 797616 1573227495275
+# HELP collectd_df_df_complex write_prometheus plugin: 'df' Type: 'df_complex', Dstype: 'gauge', Dsname: 'value'
+# TYPE collectd_df_df_complex gauge
+collectd_df_df_complex{df="dev",type="free",instance="myhostfqdn"} 135065460736 1573227495275
+collectd_df_df_complex{df="dev",type="reserved",instance="myhostfqdn"} 0 1573227495275
+collectd_df_df_complex{df="dev",type="used",instance="myhostfqdn"} 0 1573227495275
+collectd_df_df_complex{df="root",type="free",instance="myhostfqdn"} 179851554816 1573227495275
+collectd_df_df_complex{df="root",type="reserved",instance="myhostfqdn"} 10017693696 1573227495275
+collectd_df_df_complex{df="root",type="used",instance="myhostfqdn"} 6874267648 1573227495275
+collectd_df_df_complex{df="var-log",type="free",instance="myhostfqdn"} 35068710912 1573227495275
+collectd_df_df_complex{df="var-log",type="reserved",instance="myhostfqdn"} 16777216 1573227495275
+collectd_df_df_complex{df="var-log",type="used",instance="myhostfqdn"} 4151726080 1573227495275
+collectd_df_df_complex{df="var-opt",type="free",instance="myhostfqdn"} 2013737189376 1573227495275
+collectd_df_df_complex{df="var-opt",type="reserved",instance="myhostfqdn"} 16777216 1573227495275
+collectd_df_df_complex{df="var-opt",type="used",instance="myhostfqdn"} 821383393280 1573227495275
+collectd_df_df_complex{df="var-opt-nfs",type="free",instance="myhostfqdn"} 32310082781184 1573227495276
+collectd_df_df_complex{df="var-opt-nfs",type="reserved",instance="myhostfqdn"} 0 1573227495276
+collectd_df_df_complex{df="var-opt-nfs",type="used",instance="myhostfqdn"} 15699090292736 1573227495276
+# HELP collectd_disk_disk_io_time_io_time_total write_prometheus plugin: 'disk' Type: 'disk_io_time', Dstype: 'derive', Dsname: 'io_time'
+# TYPE collectd_disk_disk_io_time_io_time_total counter
+collectd_disk_disk_io_time_io_time_total{disk="sda",instance="myhostfqdn"} 4608113 1573227495275
+collectd_disk_disk_io_time_io_time_total{disk="sda1",instance="myhostfqdn"} 2739770 1573227495275
+collectd_disk_disk_io_time_io_time_total{disk="sda2",instance="myhostfqdn"} 2453020 1573227495275
+collectd_disk_disk_io_time_io_time_total{disk="sda3",instance="myhostfqdn"} 78420 1573227495275
+collectd_disk_disk_io_time_io_time_total{disk="sdb",instance="myhostfqdn"} 830750131 1573227495275
+collectd_disk_disk_io_time_io_time_total{disk="sdb1",instance="myhostfqdn"} 830698904 1573227495275
+collectd_disk_disk_io_time_io_time_total{disk="sdb2",instance="myhostfqdn"} 57187 1573227495275
+# HELP collectd_disk_disk_io_time_weighted_io_time_total write_prometheus plugin: 'disk' Type: 'disk_io_time', Dstype: 'derive', Dsname: 'weighted_io_time'
+# TYPE collectd_disk_disk_io_time_weighted_io_time_total counter
+collectd_disk_disk_io_time_weighted_io_time_total{disk="sda",instance="myhostfqdn"} 149755339 1573227495275
+collectd_disk_disk_io_time_weighted_io_time_total{disk="sda1",instance="myhostfqdn"} 99678696 1573227495275
+collectd_disk_disk_io_time_weighted_io_time_total{disk="sda2",instance="myhostfqdn"} 49972657 1573227495275
+collectd_disk_disk_io_time_weighted_io_time_total{disk="sda3",instance="myhostfqdn"} 78421 1573227495275
+collectd_disk_disk_io_time_weighted_io_time_total{disk="sdb",instance="myhostfqdn"} 1669316420 1573227495275
+collectd_disk_disk_io_time_weighted_io_time_total{disk="sdb1",instance="myhostfqdn"} 1669178320 1573227495275
+collectd_disk_disk_io_time_weighted_io_time_total{disk="sdb2",instance="myhostfqdn"} 57187 1573227495275
+# HELP collectd_disk_disk_merged_read_total write_prometheus plugin: 'disk' Type: 'disk_merged', Dstype: 'derive', Dsname: 'read'
+# TYPE collectd_disk_disk_merged_read_total counter
+collectd_disk_disk_merged_read_total{disk="sda",instance="myhostfqdn"} 1255 1573227495275
+collectd_disk_disk_merged_read_total{disk="sda1",instance="myhostfqdn"} 203 1573227495275
+collectd_disk_disk_merged_read_total{disk="sda2",instance="myhostfqdn"} 1052 1573227495275
+collectd_disk_disk_merged_read_total{disk="sdb",instance="myhostfqdn"} 49252 1573227495275
+collectd_disk_disk_merged_read_total{disk="sdb1",instance="myhostfqdn"} 49252 1573227495275
+# HELP collectd_disk_disk_merged_write_total write_prometheus plugin: 'disk' Type: 'disk_merged', Dstype: 'derive', Dsname: 'write'
+# TYPE collectd_disk_disk_merged_write_total counter
+collectd_disk_disk_merged_write_total{disk="sda",instance="myhostfqdn"} 20911243 1573227495275
+collectd_disk_disk_merged_write_total{disk="sda1",instance="myhostfqdn"} 15938248 1573227495275
+collectd_disk_disk_merged_write_total{disk="sda2",instance="myhostfqdn"} 4972995 1573227495275
+collectd_disk_disk_merged_write_total{disk="sdb",instance="myhostfqdn"} 3810008246 1573227495275
+collectd_disk_disk_merged_write_total{disk="sdb1",instance="myhostfqdn"} 3810008246 1573227495275
+# HELP collectd_disk_disk_octets_read_total write_prometheus plugin: 'disk' Type: 'disk_octets', Dstype: 'derive', Dsname: 'read'
+# TYPE collectd_disk_disk_octets_read_total counter
+collectd_disk_disk_octets_read_total{disk="sda",instance="myhostfqdn"} 62260942336 1573227495275
+collectd_disk_disk_octets_read_total{disk="sda1",instance="myhostfqdn"} 39562753536 1573227495275
+collectd_disk_disk_octets_read_total{disk="sda2",instance="myhostfqdn"} 20201689088 1573227495275
+collectd_disk_disk_octets_read_total{disk="sda3",instance="myhostfqdn"} 2439356416 1573227495275
+collectd_disk_disk_octets_read_total{disk="sdb",instance="myhostfqdn"} 61152922462208 1573227495275
+collectd_disk_disk_octets_read_total{disk="sdb1",instance="myhostfqdn"} 61151293040640 1573227495275
+collectd_disk_disk_octets_read_total{disk="sdb2",instance="myhostfqdn"} 1570910208 1573227495275
+# HELP collectd_disk_disk_octets_write_total write_prometheus plugin: 'disk' Type: 'disk_octets', Dstype: 'derive', Dsname: 'write'
+# TYPE collectd_disk_disk_octets_write_total counter
+collectd_disk_disk_octets_write_total{disk="sda",instance="myhostfqdn"} 776432787968 1573227495275
+collectd_disk_disk_octets_write_total{disk="sda1",instance="myhostfqdn"} 516324053504 1573227495275
+collectd_disk_disk_octets_write_total{disk="sda2",instance="myhostfqdn"} 260108734464 1573227495275
+collectd_disk_disk_octets_write_total{disk="sda3",instance="myhostfqdn"} 0 1573227495275
+collectd_disk_disk_octets_write_total{disk="sdb",instance="myhostfqdn"} 112062857105920 1573227495275
+collectd_disk_disk_octets_write_total{disk="sdb1",instance="myhostfqdn"} 112062857105920 1573227495275
+collectd_disk_disk_octets_write_total{disk="sdb2",instance="myhostfqdn"} 0 1573227495275
+# HELP collectd_disk_disk_ops_read_total write_prometheus plugin: 'disk' Type: 'disk_ops', Dstype: 'derive', Dsname: 'read'
+# TYPE collectd_disk_disk_ops_read_total counter
+collectd_disk_disk_ops_read_total{disk="sda",instance="myhostfqdn"} 3279665 1573227495275
+collectd_disk_disk_ops_read_total{disk="sda1",instance="myhostfqdn"} 2197835 1573227495275
+collectd_disk_disk_ops_read_total{disk="sda2",instance="myhostfqdn"} 483472 1573227495275
+collectd_disk_disk_ops_read_total{disk="sda3",instance="myhostfqdn"} 595546 1573227495275
+collectd_disk_disk_ops_read_total{disk="sdb",instance="myhostfqdn"} 449254990 1573227495275
+collectd_disk_disk_ops_read_total{disk="sdb1",instance="myhostfqdn"} 448868664 1573227495275
+collectd_disk_disk_ops_read_total{disk="sdb2",instance="myhostfqdn"} 383523 1573227495275
+# HELP collectd_disk_disk_ops_write_total write_prometheus plugin: 'disk' Type: 'disk_ops', Dstype: 'derive', Dsname: 'write'
+# TYPE collectd_disk_disk_ops_write_total counter
+collectd_disk_disk_ops_write_total{disk="sda",instance="myhostfqdn"} 53103223 1573227495275
+collectd_disk_disk_ops_write_total{disk="sda1",instance="myhostfqdn"} 16734835 1573227495275
+collectd_disk_disk_ops_write_total{disk="sda2",instance="myhostfqdn"} 36368388 1573227495275
+collectd_disk_disk_ops_write_total{disk="sda3",instance="myhostfqdn"} 0 1573227495275
+collectd_disk_disk_ops_write_total{disk="sdb",instance="myhostfqdn"} 7176463743 1573227495275
+collectd_disk_disk_ops_write_total{disk="sdb1",instance="myhostfqdn"} 7176463743 1573227495275
+collectd_disk_disk_ops_write_total{disk="sdb2",instance="myhostfqdn"} 0 1573227495275
+# HELP collectd_disk_disk_time_read_total write_prometheus plugin: 'disk' Type: 'disk_time', Dstype: 'derive', Dsname: 'read'
+# TYPE collectd_disk_disk_time_read_total counter
+collectd_disk_disk_time_read_total{disk="sda",instance="myhostfqdn"} 102010 1573227495275
+collectd_disk_disk_time_read_total{disk="sda1",instance="myhostfqdn"} 84795 1573227495275
+collectd_disk_disk_time_read_total{disk="sda2",instance="myhostfqdn"} 59815 1573227495275
+collectd_disk_disk_time_read_total{disk="sda3",instance="myhostfqdn"} 10661 1573227495275
+collectd_disk_disk_time_read_total{disk="sdb",instance="myhostfqdn"} 561579 1573227495275
+collectd_disk_disk_time_read_total{disk="sdb1",instance="myhostfqdn"} 599003 1573227495275
+collectd_disk_disk_time_read_total{disk="sdb2",instance="myhostfqdn"} 11894 1573227495275
+# HELP collectd_disk_disk_time_write_total write_prometheus plugin: 'disk' Type: 'disk_time', Dstype: 'derive', Dsname: 'write'
+# TYPE collectd_disk_disk_time_write_total counter
+collectd_disk_disk_time_write_total{disk="sda",instance="myhostfqdn"} 1115253 1573227495275
+collectd_disk_disk_time_write_total{disk="sda1",instance="myhostfqdn"} 763288 1573227495275
+collectd_disk_disk_time_write_total{disk="sda2",instance="myhostfqdn"} 1202511 1573227495275
+collectd_disk_disk_time_write_total{disk="sda3",instance="myhostfqdn"} 0 1573227495275
+collectd_disk_disk_time_write_total{disk="sdb",instance="myhostfqdn"} 267316 1573227495275
+collectd_disk_disk_time_write_total{disk="sdb1",instance="myhostfqdn"} 267316 1573227495275
+collectd_disk_disk_time_write_total{disk="sdb2",instance="myhostfqdn"} 0 1573227495275
+# HELP collectd_disk_pending_operations write_prometheus plugin: 'disk' Type: 'pending_operations', Dstype: 'gauge', Dsname: 'value'
+# TYPE collectd_disk_pending_operations gauge
+collectd_disk_pending_operations{disk="sda",instance="myhostfqdn"} 0 1573227495275
+collectd_disk_pending_operations{disk="sda1",instance="myhostfqdn"} 0 1573227495275
+collectd_disk_pending_operations{disk="sda2",instance="myhostfqdn"} 0 1573227495275
+collectd_disk_pending_operations{disk="sdb",instance="myhostfqdn"} 0 1573227495275
+collectd_disk_pending_operations{disk="sdb1",instance="myhostfqdn"} 0 1573227495275
+# HELP collectd_interface_if_dropped_rx_total write_prometheus plugin: 'interface' Type: 'if_dropped', Dstype: 'derive', Dsname: 'rx'
+# TYPE collectd_interface_if_dropped_rx_total counter
+collectd_interface_if_dropped_rx_total{interface="eno5",instance="myhostfqdn"} 240 1573227495275
+collectd_interface_if_dropped_rx_total{interface="eno6",instance="myhostfqdn"} 0 1573227495275
+# HELP collectd_interface_if_dropped_tx_total write_prometheus plugin: 'interface' Type: 'if_dropped', Dstype: 'derive', Dsname: 'tx'
+# TYPE collectd_interface_if_dropped_tx_total counter
+collectd_interface_if_dropped_tx_total{interface="eno5",instance="myhostfqdn"} 0 1573227495275
+collectd_interface_if_dropped_tx_total{interface="eno6",instance="myhostfqdn"} 0 1573227495275
+# HELP collectd_interface_if_errors_rx_total write_prometheus plugin: 'interface' Type: 'if_errors', Dstype: 'derive', Dsname: 'rx'
+# TYPE collectd_interface_if_errors_rx_total counter
+collectd_interface_if_errors_rx_total{interface="eno5",instance="myhostfqdn"} 0 1573227495275
+collectd_interface_if_errors_rx_total{interface="eno6",instance="myhostfqdn"} 0 1573227495275
+# HELP collectd_interface_if_errors_tx_total write_prometheus plugin: 'interface' Type: 'if_errors', Dstype: 'derive', Dsname: 'tx'
+# TYPE collectd_interface_if_errors_tx_total counter
+collectd_interface_if_errors_tx_total{interface="eno5",instance="myhostfqdn"} 0 1573227495275
+collectd_interface_if_errors_tx_total{interface="eno6",instance="myhostfqdn"} 0 1573227495275
+# HELP collectd_interface_if_octets_rx_total write_prometheus plugin: 'interface' Type: 'if_octets', Dstype: 'derive', Dsname: 'rx'
+# TYPE collectd_interface_if_octets_rx_total counter
+collectd_interface_if_octets_rx_total{interface="eno5",instance="myhostfqdn"} 55183075184852 1573227495275
+collectd_interface_if_octets_rx_total{interface="eno6",instance="myhostfqdn"} 0 1573227495275
+# HELP collectd_interface_if_octets_tx_total write_prometheus plugin: 'interface' Type: 'if_octets', Dstype: 'derive', Dsname: 'tx'
+# TYPE collectd_interface_if_octets_tx_total counter
+collectd_interface_if_octets_tx_total{interface="eno5",instance="myhostfqdn"} 167556779841268 1573227495275
+collectd_interface_if_octets_tx_total{interface="eno6",instance="myhostfqdn"} 0 1573227495275
+# HELP collectd_interface_if_packets_rx_total write_prometheus plugin: 'interface' Type: 'if_packets', Dstype: 'derive', Dsname: 'rx'
+# TYPE collectd_interface_if_packets_rx_total counter
+collectd_interface_if_packets_rx_total{interface="eno5",instance="myhostfqdn"} 208364139022 1573227495275
+collectd_interface_if_packets_rx_total{interface="eno6",instance="myhostfqdn"} 0 1573227495275
+# HELP collectd_interface_if_packets_tx_total write_prometheus plugin: 'interface' Type: 'if_packets', Dstype: 'derive', Dsname: 'tx'
+# TYPE collectd_interface_if_packets_tx_total counter
+collectd_interface_if_packets_tx_total{interface="eno5",instance="myhostfqdn"} 239768784079 1573227495275
+collectd_interface_if_packets_tx_total{interface="eno6",instance="myhostfqdn"} 0 1573227495275
+# HELP collectd_irq_total write_prometheus plugin: 'irq' Type: 'irq', Dstype: 'derive', Dsname: 'value'
+# TYPE collectd_irq_total counter
+collectd_irq_total{irq="0",instance="myhostfqdn"} 66 1573227495275
+collectd_irq_total{irq="1",instance="myhostfqdn"} 3 1573227495275
+collectd_irq_total{irq="102",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="112",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="114",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="115",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="116",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="117",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="118",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="119",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="12",instance="myhostfqdn"} 4 1573227495275
+collectd_irq_total{irq="120",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="121",instance="myhostfqdn"} 18 1573227495276
+collectd_irq_total{irq="123",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="125",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="126",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="127",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="128",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="129",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="130",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="131",instance="myhostfqdn"} 2 1573227495276
+collectd_irq_total{irq="17",instance="myhostfqdn"} 6968975 1573227495275
+collectd_irq_total{irq="24",instance="myhostfqdn"} 0 1573227495275
+collectd_irq_total{irq="25",instance="myhostfqdn"} 0 1573227495275
+collectd_irq_total{irq="27",instance="myhostfqdn"} 0 1573227495275
+collectd_irq_total{irq="29",instance="myhostfqdn"} 0 1573227495275
+collectd_irq_total{irq="3",instance="myhostfqdn"} 821 1573227495275
+collectd_irq_total{irq="31",instance="myhostfqdn"} 0 1573227495275
+collectd_irq_total{irq="33",instance="myhostfqdn"} 0 1573227495275
+collectd_irq_total{irq="35",instance="myhostfqdn"} 0 1573227495275
+collectd_irq_total{irq="37",instance="myhostfqdn"} 0 1573227495275
+collectd_irq_total{irq="39",instance="myhostfqdn"} 0 1573227495275
+collectd_irq_total{irq="4",instance="myhostfqdn"} 12 1573227495275
+collectd_irq_total{irq="41",instance="myhostfqdn"} 0 1573227495275
+collectd_irq_total{irq="42",instance="myhostfqdn"} 53595786 1573227495275
+collectd_irq_total{irq="43",instance="myhostfqdn"} 0 1573227495275
+collectd_irq_total{irq="44",instance="myhostfqdn"} 14272264744 1573227495275
+collectd_irq_total{irq="45",instance="myhostfqdn"} 5929590096 1573227495276
+collectd_irq_total{irq="46",instance="myhostfqdn"} 9448290429 1573227495276
+collectd_irq_total{irq="47",instance="myhostfqdn"} 13559196359 1573227495276
+collectd_irq_total{irq="48",instance="myhostfqdn"} 6769904585 1573227495276
+collectd_irq_total{irq="49",instance="myhostfqdn"} 6138074434 1573227495276
+collectd_irq_total{irq="50",instance="myhostfqdn"} 5755628652 1573227495276
+collectd_irq_total{irq="51",instance="myhostfqdn"} 5501931885 1573227495276
+collectd_irq_total{irq="52",instance="myhostfqdn"} 13031805147 1573227495276
+collectd_irq_total{irq="53",instance="myhostfqdn"} 13177682584 1573227495276
+collectd_irq_total{irq="54",instance="myhostfqdn"} 16587566747 1573227495276
+collectd_irq_total{irq="55",instance="myhostfqdn"} 12802653086 1573227495276
+collectd_irq_total{irq="56",instance="myhostfqdn"} 5281757493 1573227495276
+collectd_irq_total{irq="57",instance="myhostfqdn"} 5393007383 1573227495276
+collectd_irq_total{irq="58",instance="myhostfqdn"} 5230416188 1573227495276
+collectd_irq_total{irq="59",instance="myhostfqdn"} 5161599687 1573227495276
+collectd_irq_total{irq="60",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="69",instance="myhostfqdn"} 3368113359 1573227495276
+collectd_irq_total{irq="70",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="71",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="72",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="73",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="74",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="75",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="76",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="77",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="78",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="79",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="8",instance="myhostfqdn"} 1 1573227495275
+collectd_irq_total{irq="80",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="81",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="82",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="83",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="84",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="85",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="9",instance="myhostfqdn"} 0 1573227495275
+collectd_irq_total{irq="CAL",instance="myhostfqdn"} 16796181321 1573227495276
+collectd_irq_total{irq="DFR",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="ERR",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="IWI",instance="myhostfqdn"} 4 1573227495276
+collectd_irq_total{irq="LOC",instance="myhostfqdn"} 43320682155 1573227495276
+collectd_irq_total{irq="MCE",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="MCP",instance="myhostfqdn"} 1071920 1573227495276
+collectd_irq_total{irq="MIS",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="NMI",instance="myhostfqdn"} 3030704 1573227495276
+collectd_irq_total{irq="NPI",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="PIN",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="PIW",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="PMI",instance="myhostfqdn"} 3030704 1573227495276
+collectd_irq_total{irq="RES",instance="myhostfqdn"} 6500061291 1573227495276
+collectd_irq_total{irq="RTR",instance="myhostfqdn"} 15 1573227495276
+collectd_irq_total{irq="SPU",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="THR",instance="myhostfqdn"} 0 1573227495276
+collectd_irq_total{irq="TLB",instance="myhostfqdn"} 11983510417 1573227495276
+collectd_irq_total{irq="TRM",instance="myhostfqdn"} 0 1573227495276
+# HELP collectd_load_longterm write_prometheus plugin: 'load' Type: 'load', Dstype: 'gauge', Dsname: 'longterm'
+# TYPE collectd_load_longterm gauge
+collectd_load_longterm{instance="myhostfqdn"} 1.96 1573227495275
+# HELP collectd_load_midterm write_prometheus plugin: 'load' Type: 'load', Dstype: 'gauge', Dsname: 'midterm'
+# TYPE collectd_load_midterm gauge
+collectd_load_midterm{instance="myhostfqdn"} 1.81 1573227495275
+# HELP collectd_load_shortterm write_prometheus plugin: 'load' Type: 'load', Dstype: 'gauge', Dsname: 'shortterm'
+# TYPE collectd_load_shortterm gauge
+collectd_load_shortterm{instance="myhostfqdn"} 1.62 1573227495275
+# HELP collectd_memory write_prometheus plugin: 'memory' Type: 'memory', Dstype: 'gauge', Dsname: 'value'
+# TYPE collectd_memory gauge
+collectd_memory{memory="buffered",instance="myhostfqdn"} 181698560 1573227495275
+collectd_memory{memory="cached",instance="myhostfqdn"} 14957793280 1573227495275
+collectd_memory{memory="free",instance="myhostfqdn"} 8978956288 1573227495275
+collectd_memory{memory="slab_recl",instance="myhostfqdn"} 522366976 1573227495275
+collectd_memory{memory="slab_unrecl",instance="myhostfqdn"} 73129984 1573227495275
+collectd_memory{memory="used",instance="myhostfqdn"} 245438091264 1573227495275
+# HELP collectd_mysql_counter_total write_prometheus plugin: 'mysql' Type: 'counter', Dstype: 'counter', Dsname: 'value'
+# TYPE collectd_mysql_counter_total counter
+collectd_mysql_counter_total{mysql="innodb",type="file_reads",instance="myhostfqdn"} 11474726 1573227495377
+collectd_mysql_counter_total{mysql="innodb",type="file_writes",instance="myhostfqdn"} 295244878 1573227495377
+collectd_mysql_counter_total{mysql="innodb",type="log_writes",instance="myhostfqdn"} 207620972 1573227495377
+collectd_mysql_counter_total{mysql="innodb",type="os_log_bytes_written",instance="myhostfqdn"} 1300698339840 1573227495317
+collectd_mysql_counter_total{mysql="status",type="Aborted_clients",instance="myhostfqdn"} 14762 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Aborted_connects",instance="myhostfqdn"} 1314091 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Binlog_cache_disk_use",instance="myhostfqdn"} 1776404 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Binlog_cache_use",instance="myhostfqdn"} 203559597 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Bytes_received",instance="myhostfqdn"} 4652912976874 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Bytes_sent",instance="myhostfqdn"} 37530630979427 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_admin_commands",instance="myhostfqdn"} 67751288 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_alter_db",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_alter_db_upgrade",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_alter_event",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_alter_function",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_alter_procedure",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_alter_sequence",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_alter_server",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_alter_table",instance="myhostfqdn"} 14 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_alter_tablespace",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_alter_user",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_analyze",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_assign_to_keycache",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_begin",instance="myhostfqdn"} 385 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_binlog",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_call_procedure",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_change_db",instance="myhostfqdn"} 9233 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_change_master",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_check",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_checksum",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_commit",instance="myhostfqdn"} 1841709904 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_compound_sql",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_create_db",instance="myhostfqdn"} 4516 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_create_event",instance="myhostfqdn"} 4512 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_create_function",instance="myhostfqdn"} 90320 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_create_index",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_create_package",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_create_package_body",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_create_procedure",instance="myhostfqdn"} 121932 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_create_role",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_create_sequence",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_create_server",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_create_table",instance="myhostfqdn"} 4588 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_create_temporary_table",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_create_trigger",instance="myhostfqdn"} 9032 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_create_udf",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_create_user",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_create_view",instance="myhostfqdn"} 392892 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_dealloc_sql",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_delete",instance="myhostfqdn"} 130880062 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_delete_multi",instance="myhostfqdn"} 3282010 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_do",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_drop_db",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_drop_event",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_drop_function",instance="myhostfqdn"} 90320 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_drop_index",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_drop_package",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_drop_package_body",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_drop_procedure",instance="myhostfqdn"} 117416 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_drop_role",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_drop_sequence",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_drop_server",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_drop_table",instance="myhostfqdn"} 52 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_drop_temporary_table",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_drop_trigger",instance="myhostfqdn"} 9032 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_drop_user",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_drop_view",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_empty_query",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_execute_immediate",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_execute_sql",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_flush",instance="myhostfqdn"} 538 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_get_diagnostics",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_grant",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_grant_role",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_ha_close",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_ha_open",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_ha_read",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_help",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_insert",instance="myhostfqdn"} 1276254110 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_insert_select",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_install_plugin",instance="myhostfqdn"} 110 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_kill",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_load",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_lock_tables",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_multi",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_optimize",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_preload_keys",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_prepare_sql",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_purge",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_purge_before_date",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_release_savepoint",instance="myhostfqdn"} 74 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_rename_table",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_rename_user",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_repair",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_replace",instance="myhostfqdn"} 223325424 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_replace_select",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_reset",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_resignal",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_revoke",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_revoke_all",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_revoke_role",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_rollback",instance="myhostfqdn"} 2062382811 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_rollback_to_savepoint",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_savepoint",instance="myhostfqdn"} 74 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_select",instance="myhostfqdn"} 18993756076 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_set_option",instance="myhostfqdn"} 4644680883 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_authors",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_binlog_events",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_binlogs",instance="myhostfqdn"} 55053 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_show_charsets",instance="myhostfqdn"} 6 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_collations",instance="myhostfqdn"} 6 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_contributors",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_create_db",instance="myhostfqdn"} 1155 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_create_event",instance="myhostfqdn"} 77 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_create_func",instance="myhostfqdn"} 1540 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_show_create_package",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_create_package_body",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_create_proc",instance="myhostfqdn"} 2233 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_show_create_table",instance="myhostfqdn"} 29099 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_create_trigger",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_create_user",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_databases",instance="myhostfqdn"} 59230 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_show_engine_logs",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_show_engine_mutex",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_engine_status",instance="myhostfqdn"} 55092 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_errors",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_show_events",instance="myhostfqdn"} 1155 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_explain",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_fields",instance="myhostfqdn"} 224946 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_function_status",instance="myhostfqdn"} 1155 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_generic",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_grants",instance="myhostfqdn"} 2349 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_show_keys",instance="myhostfqdn"} 26923 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_master_status",instance="myhostfqdn"} 3289965 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_show_open_tables",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_show_package_body_status",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_package_status",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_plugins",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_privileges",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_procedure_status",instance="myhostfqdn"} 1386 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_processlist",instance="myhostfqdn"} 55130 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_profile",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_profiles",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_relaylog_events",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_show_slave_hosts",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_slave_status",instance="myhostfqdn"} 3356028 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_status",instance="myhostfqdn"} 55054 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_storage_engines",instance="myhostfqdn"} 6 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_show_table_status",instance="myhostfqdn"} 1156 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_show_tables",instance="myhostfqdn"} 677732 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_triggers",instance="myhostfqdn"} 24178 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_variables",instance="myhostfqdn"} 55163 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_show_warnings",instance="myhostfqdn"} 107 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_shutdown",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_signal",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_start_all_slaves",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_start_slave",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_stmt_close",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_stmt_execute",instance="myhostfqdn"} 158 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_stmt_fetch",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_stmt_prepare",instance="myhostfqdn"} 34 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_stmt_reprepare",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_stmt_reset",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_stmt_send_long_data",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_stop_all_slaves",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_stop_slave",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Com_truncate",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_uninstall_plugin",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_unlock_tables",instance="myhostfqdn"} 116 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_update",instance="myhostfqdn"} 48970907 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_update_multi",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_xa_commit",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_xa_end",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_xa_prepare",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Com_xa_recover",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_xa_rollback",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Com_xa_start",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Connections",instance="myhostfqdn"} 64110198 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Created_tmp_disk_tables",instance="myhostfqdn"} 648915 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Created_tmp_files",instance="myhostfqdn"} 17691406 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Created_tmp_tables",instance="myhostfqdn"} 8043190 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Handler_commit",instance="myhostfqdn"} 22208960544 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Handler_delete",instance="myhostfqdn"} 1253580398 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Handler_discover",instance="myhostfqdn"} 10314 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Handler_external_lock",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Handler_icp_attempts",instance="myhostfqdn"} 52579126 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Handler_icp_match",instance="myhostfqdn"} 50624034 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Handler_mrr_init",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Handler_mrr_key_refills",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Handler_mrr_rowid_refills",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Handler_prepare",instance="myhostfqdn"} 3609215188 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Handler_read_first",instance="myhostfqdn"} 467054899 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Handler_read_key",instance="myhostfqdn"} 847359160814 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Handler_read_last",instance="myhostfqdn"} 59606 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Handler_read_next",instance="myhostfqdn"} 1404205207894 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Handler_read_prev",instance="myhostfqdn"} 276890698 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Handler_read_retry",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Handler_read_rnd",instance="myhostfqdn"} 334952317819 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Handler_read_rnd_deleted",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Handler_read_rnd_next",instance="myhostfqdn"} 183436652590 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Handler_rollback",instance="myhostfqdn"} 2205349 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Handler_savepoint",instance="myhostfqdn"} 133 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Handler_savepoint_rollback",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Handler_tmp_delete",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Handler_tmp_update",instance="myhostfqdn"} 19938070 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Handler_tmp_write",instance="myhostfqdn"} 2012399913 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Handler_update",instance="myhostfqdn"} 288013115 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Handler_write",instance="myhostfqdn"} 1499809774 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Innodb_buffer_pool_read_requests",instance="myhostfqdn"} 2610539610367 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Innodb_buffer_pool_reads",instance="myhostfqdn"} 6516300 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Innodb_data_fsyncs",instance="myhostfqdn"} 241710957 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Innodb_data_read",instance="myhostfqdn"} 187979368960 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Innodb_data_reads",instance="myhostfqdn"} 11474726 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Innodb_data_writes",instance="myhostfqdn"} 295244877 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Innodb_data_written",instance="myhostfqdn"} 3731846524928 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Innodb_pages_created",instance="myhostfqdn"} 10262264 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Innodb_pages_read",instance="myhostfqdn"} 11475374 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Innodb_pages_written",instance="myhostfqdn"} 74190701 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Innodb_row_lock_time",instance="myhostfqdn"} 45732699 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Innodb_row_lock_waits",instance="myhostfqdn"} 16286 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Innodb_rows_deleted",instance="myhostfqdn"} 1253368146 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Innodb_rows_inserted",instance="myhostfqdn"} 1277835298 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Innodb_rows_read",instance="myhostfqdn"} 2747937884550 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Innodb_rows_updated",instance="myhostfqdn"} 245650762 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Key_read_requests",instance="myhostfqdn"} 3391713 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Key_reads",instance="myhostfqdn"} 35424 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Key_write_requests",instance="myhostfqdn"} 849008 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Key_writes",instance="myhostfqdn"} 849008 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Opened_files",instance="myhostfqdn"} 84991881 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Opened_table_definitions",instance="myhostfqdn"} 88797 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Opened_tables",instance="myhostfqdn"} 1131356 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Qcache_hits",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Qcache_inserts",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Qcache_lowmem_prunes",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Qcache_not_cached",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Qcache_queries_in_cache",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Qcache_total_blocks",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Questions",instance="myhostfqdn"} 29296901264 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Select_full_join",instance="myhostfqdn"} 60919 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Select_full_range_join",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Select_range",instance="myhostfqdn"} 2467324665 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Select_range_check",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Select_scan",instance="myhostfqdn"} 602673275 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Slave_retried_transactions",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Slow_launch_threads",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Slow_queries",instance="myhostfqdn"} 3636 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Sort_merge_passes",instance="myhostfqdn"} 16103018 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Sort_range",instance="myhostfqdn"} 1677438058 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Sort_rows",instance="myhostfqdn"} 334829468540 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Sort_scan",instance="myhostfqdn"} 140274 1573227495290
+collectd_mysql_counter_total{mysql="status",type="Table_locks_immediate",instance="myhostfqdn"} 3199881 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Table_locks_waited",instance="myhostfqdn"} 250 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Table_open_cache_hits",instance="myhostfqdn"} 25865473383 1573227495288
+collectd_mysql_counter_total{mysql="status",type="Table_open_cache_misses",instance="myhostfqdn"} 7852601 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Table_open_cache_overflows",instance="myhostfqdn"} 1065709 1573227495289
+collectd_mysql_counter_total{mysql="status",type="Threads_created",instance="myhostfqdn"} 851 1573227495288
+collectd_mysql_counter_total{mysql="status",type="wsrep_local_bf_aborts",instance="myhostfqdn"} 0 1573227495289
+# HELP collectd_mysql_gauge write_prometheus plugin: 'mysql' Type: 'gauge', Dstype: 'gauge', Dsname: 'value'
+# TYPE collectd_mysql_gauge gauge
+collectd_mysql_gauge{mysql="db_size",type="drelephant_db",instance="myhostfqdn"} 13750 1573227495317
+collectd_mysql_gauge{mysql="db_size",type="fatcat_db",instance="myhostfqdn"} 5795 1573227495317
+collectd_mysql_gauge{mysql="db_size",type="hive_metastore_audit_db",instance="myhostfqdn"} 124129 1573227495317
+collectd_mysql_gauge{mysql="db_size",type="hive_metastore_db",instance="myhostfqdn"} 21224 1573227495317
+collectd_mysql_gauge{mysql="db_size",type="hive_metastore_exp_cbo_db",instance="myhostfqdn"} 9805 1573227495317
+collectd_mysql_gauge{mysql="db_size",type="hive_metastore_exp_db",instance="myhostfqdn"} 19091 1573227495317
+collectd_mysql_gauge{mysql="db_size",type="hue_db",instance="myhostfqdn"} 40 1573227495317
+collectd_mysql_gauge{mysql="db_size",type="mozart_db",instance="myhostfqdn"} 5 1573227495317
+collectd_mysql_gauge{mysql="db_size",type="oops_db",instance="myhostfqdn"} 3 1573227495317
+collectd_mysql_gauge{mysql="db_size",type="sahale",instance="myhostfqdn"} 0 1573227495317
+collectd_mysql_gauge{mysql="db_size",type="sys",instance="myhostfqdn"} 0 1573227495317
+collectd_mysql_gauge{mysql="innodb",type="active_transactions",instance="myhostfqdn"} 2 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="current_transactions",instance="myhostfqdn"} 198 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="file_system_memory",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="innodb_lock_structs",instance="myhostfqdn"} 634 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="innodb_lock_wait_secs",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="innodb_locked_tables",instance="myhostfqdn"} 2 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="innodb_sem_wait_time_ms",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="innodb_sem_waits",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="innodb_tables_in_use",instance="myhostfqdn"} 2 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="lock_system_memory",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="locked_transactions",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="page_hash_memory",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="pending_aio_log_ios",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="pending_buf_pool_flushes",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="pending_chkp_writes",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="pending_ibuf_aio_reads",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="pending_log_writes",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="queries_inside",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="queries_queued",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="innodb",type="read_views",instance="myhostfqdn"} 0 1573227495377
+collectd_mysql_gauge{mysql="master",type="binary_log_space",instance="myhostfqdn"} 123601226990 1573227495298
+collectd_mysql_gauge{mysql="state",type="closing_tables",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="state",type="copying_to_tmp_table",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="state",type="creating_table",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="state",type="end",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="state",type="freeing_items",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="state",type="init",instance="myhostfqdn"} 1 1573227495302
+collectd_mysql_gauge{mysql="state",type="locked",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="state",type="login",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="state",type="none",instance="myhostfqdn"} 605 1573227495302
+collectd_mysql_gauge{mysql="state",type="opening_tables",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="state",type="other",instance="myhostfqdn"} 8 1573227495302
+collectd_mysql_gauge{mysql="state",type="preparing",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="state",type="reading_from_net",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="state",type="sending_data",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="state",type="sorting_result",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="state",type="statistics",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="state",type="updating",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="state",type="writing_to_net",instance="myhostfqdn"} 0 1573227495302
+collectd_mysql_gauge{mysql="status",type="Innodb_buffer_pool_pages_data",instance="myhostfqdn"} 12968340 1573227495288
+collectd_mysql_gauge{mysql="status",type="Innodb_buffer_pool_pages_dirty",instance="myhostfqdn"} 43070 1573227495289
+collectd_mysql_gauge{mysql="status",type="Innodb_buffer_pool_pages_free",instance="myhostfqdn"} 8220 1573227495288
+collectd_mysql_gauge{mysql="status",type="Innodb_buffer_pool_pages_total",instance="myhostfqdn"} 13238272 1573227495288
+collectd_mysql_gauge{mysql="status",type="Innodb_data_pending_fsyncs",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_gauge{mysql="status",type="Innodb_data_pending_reads",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_gauge{mysql="status",type="Innodb_data_pending_writes",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_gauge{mysql="status",type="Innodb_os_log_pending_fsyncs",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_gauge{mysql="status",type="Innodb_row_lock_time_avg",instance="myhostfqdn"} 2808 1573227495289
+collectd_mysql_gauge{mysql="status",type="Innodb_row_lock_time_max",instance="myhostfqdn"} 51978 1573227495289
+collectd_mysql_gauge{mysql="status",type="Key_blocks_not_flushed",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_gauge{mysql="status",type="Key_blocks_unused",instance="myhostfqdn"} 107154 1573227495289
+collectd_mysql_gauge{mysql="status",type="Key_blocks_used",instance="myhostfqdn"} 37 1573227495289
+collectd_mysql_gauge{mysql="status",type="Max_used_connections",instance="myhostfqdn"} 851 1573227495289
+collectd_mysql_gauge{mysql="status",type="Open_files",instance="myhostfqdn"} 122 1573227495289
+collectd_mysql_gauge{mysql="status",type="Open_table_definitions",instance="myhostfqdn"} 400 1573227495289
+collectd_mysql_gauge{mysql="status",type="Open_tables",instance="myhostfqdn"} 400 1573227495289
+collectd_mysql_gauge{mysql="status",type="Qcache_free_blocks",instance="myhostfqdn"} 0 1573227495290
+collectd_mysql_gauge{mysql="status",type="Qcache_free_memory",instance="myhostfqdn"} 0 1573227495288
+collectd_mysql_gauge{mysql="status",type="Slave_open_temp_tables",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_gauge{mysql="status",type="Threadpool_idle_threads",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_gauge{mysql="status",type="Threadpool_threads",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_gauge{mysql="status",type="Threads_cached",instance="myhostfqdn"} 243 1573227495290
+collectd_mysql_gauge{mysql="status",type="Threads_connected",instance="myhostfqdn"} 608 1573227495290
+collectd_mysql_gauge{mysql="status",type="Threads_running",instance="myhostfqdn"} 9 1573227495289
+collectd_mysql_gauge{mysql="status",type="Uptime",instance="myhostfqdn"} 3303156 1573227495288
+collectd_mysql_gauge{mysql="status",type="wsrep_cluster_size",instance="myhostfqdn"} 0 1573227495289
+collectd_mysql_gauge{mysql="variables",type="binlog_stmt_cache_size",instance="myhostfqdn"} 32768 1573227495292
+collectd_mysql_gauge{mysql="variables",type="innodb_buffer_pool_size",instance="myhostfqdn"} 216895848448 1573227495292
+collectd_mysql_gauge{mysql="variables",type="innodb_concurrency_tickets",instance="myhostfqdn"} 5000 1573227495292
+collectd_mysql_gauge{mysql="variables",type="innodb_io_capacity",instance="myhostfqdn"} 400 1573227495292
+collectd_mysql_gauge{mysql="variables",type="innodb_log_buffer_size",instance="myhostfqdn"} 8388608 1573227495292
+collectd_mysql_gauge{mysql="variables",type="innodb_log_file_size",instance="myhostfqdn"} 5368709120 1573227495292
+collectd_mysql_gauge{mysql="variables",type="innodb_open_files",instance="myhostfqdn"} 65535 1573227495292
+collectd_mysql_gauge{mysql="variables",type="join_buffer_size",instance="myhostfqdn"} 262144 1573227495292
+collectd_mysql_gauge{mysql="variables",type="max_connections",instance="myhostfqdn"} 2000 1573227495292
+collectd_mysql_gauge{mysql="variables",type="open_files_limit",instance="myhostfqdn"} 65536 1573227495292
+collectd_mysql_gauge{mysql="variables",type="query_cache_limit",instance="myhostfqdn"} 131072 1573227495292
+collectd_mysql_gauge{mysql="variables",type="query_cache_size",instance="myhostfqdn"} 0 1573227495292
+collectd_mysql_gauge{mysql="variables",type="read_buffer_size",instance="myhostfqdn"} 2097152 1573227495292
+collectd_mysql_gauge{mysql="variables",type="table_definition_cache",instance="myhostfqdn"} 400 1573227495292
+collectd_mysql_gauge{mysql="variables",type="table_open_cache",instance="myhostfqdn"} 400 1573227495292
+collectd_mysql_gauge{mysql="variables",type="thread_cache_size",instance="myhostfqdn"} 1000 1573227495292
+collectd_mysql_gauge{mysql="variables",type="thread_concurrency",instance="myhostfqdn"} 10 1573227495292
+collectd_mysql_gauge{mysql="variables",type="tmp_table_size",instance="myhostfqdn"} 33554432 1573227495292
+# HELP collectd_ping write_prometheus plugin: 'ping' Type: 'ping', Dstype: 'gauge', Dsname: 'value'
+# TYPE collectd_ping gauge
+collectd_ping{ping="10.236.121.1",instance="myhostfqdn"} 0.844 1573227495285
+# HELP collectd_ping_ping_droprate write_prometheus plugin: 'ping' Type: 'ping_droprate', Dstype: 'gauge', Dsname: 'value'
+# TYPE collectd_ping_ping_droprate gauge
+collectd_ping_ping_droprate{ping="10.236.121.1",instance="myhostfqdn"} 0 1573227495285
+# HELP collectd_ping_ping_stddev write_prometheus plugin: 'ping' Type: 'ping_stddev', Dstype: 'gauge', Dsname: 'value'
+# TYPE collectd_ping_ping_stddev gauge
+collectd_ping_ping_stddev{ping="10.236.121.1",instance="myhostfqdn"} 0 1573227495285
+# HELP collectd_processes_fork_rate_total write_prometheus plugin: 'processes' Type: 'fork_rate', Dstype: 'derive', Dsname: 'value'
+# TYPE collectd_processes_fork_rate_total counter
+collectd_processes_fork_rate_total{instance="myhostfqdn"} 42245486 1573227495292
+# HELP collectd_processes_ps_state write_prometheus plugin: 'processes' Type: 'ps_state', Dstype: 'gauge', Dsname: 'value'
+# TYPE collectd_processes_ps_state gauge
+collectd_processes_ps_state{processes="blocked",instance="myhostfqdn"} 1 1573227495292
+collectd_processes_ps_state{processes="paging",instance="myhostfqdn"} 0 1573227495292
+collectd_processes_ps_state{processes="running",instance="myhostfqdn"} 0 1573227495292
+collectd_processes_ps_state{processes="sleeping",instance="myhostfqdn"} 223 1573227495292
+collectd_processes_ps_state{processes="stopped",instance="myhostfqdn"} 0 1573227495292
+collectd_processes_ps_state{processes="zombies",instance="myhostfqdn"} 0 1573227495292
+# HELP collectd_protocols_protocol_counter_total write_prometheus plugin: 'protocols' Type: 'protocol_counter', Dstype: 'derive', Dsname: 'value'
+# TYPE collectd_protocols_protocol_counter_total counter
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="ActiveOpens",instance="myhostfqdn"} 16794353 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="AttemptFails",instance="myhostfqdn"} 24002 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="CurrEstab",instance="myhostfqdn"} 625 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="EstabResets",instance="myhostfqdn"} 7622274 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="InCsumErrors",instance="myhostfqdn"} 0 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="InErrs",instance="myhostfqdn"} 2 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="InSegs",instance="myhostfqdn"} 197558893311 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="MaxConn",instance="myhostfqdn"} -1 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="OutRsts",instance="myhostfqdn"} 10870842 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="OutSegs",instance="myhostfqdn"} 240319483606 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="PassiveOpens",instance="myhostfqdn"} 340577828 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="RetransSegs",instance="myhostfqdn"} 46330853 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="RtoAlgorithm",instance="myhostfqdn"} 1 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="RtoMax",instance="myhostfqdn"} 120000 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Tcp",type="RtoMin",instance="myhostfqdn"} 200 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Udp",type="IgnoredMulti",instance="myhostfqdn"} 5206908 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Udp",type="InCsumErrors",instance="myhostfqdn"} 0 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Udp",type="InDatagrams",instance="myhostfqdn"} 165591246 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Udp",type="InErrors",instance="myhostfqdn"} 0 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Udp",type="NoPorts",instance="myhostfqdn"} 136 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Udp",type="OutDatagrams",instance="myhostfqdn"} 188144025 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Udp",type="RcvbufErrors",instance="myhostfqdn"} 0 1573227495286
+collectd_protocols_protocol_counter_total{protocols="Udp",type="SndbufErrors",instance="myhostfqdn"} 0 1573227495286
+# HELP collectd_swap write_prometheus plugin: 'swap' Type: 'swap', Dstype: 'gauge', Dsname: 'value'
+# TYPE collectd_swap gauge
+collectd_swap{swap="cached",instance="myhostfqdn"} 0 1573227495286
+collectd_swap{swap="free",instance="myhostfqdn"} 0 1573227495286
+collectd_swap{swap="used",instance="myhostfqdn"} 0 1573227495286
+# HELP collectd_swap_swap_io_total write_prometheus plugin: 'swap' Type: 'swap_io', Dstype: 'derive', Dsname: 'value'
+# TYPE collectd_swap_swap_io_total counter
+collectd_swap_swap_io_total{swap="in",instance="myhostfqdn"} 0 1573227495286
+collectd_swap_swap_io_total{swap="out",instance="myhostfqdn"} 0 1573227495286
+# HELP collectd_tcpconns_tcp_connections write_prometheus plugin: 'tcpconns' Type: 'tcp_connections', Dstype: 'gauge', Dsname: 'value'
+# TYPE collectd_tcpconns_tcp_connections gauge
+collectd_tcpconns_tcp_connections{tcpconns="all",type="CLOSED",instance="myhostfqdn"} 0 1573227495298
+collectd_tcpconns_tcp_connections{tcpconns="all",type="CLOSE_WAIT",instance="myhostfqdn"} 0 1573227495298
+collectd_tcpconns_tcp_connections{tcpconns="all",type="CLOSING",instance="myhostfqdn"} 0 1573227495298
+collectd_tcpconns_tcp_connections{tcpconns="all",type="ESTABLISHED",instance="myhostfqdn"} 625 1573227495298
+collectd_tcpconns_tcp_connections{tcpconns="all",type="FIN_WAIT1",instance="myhostfqdn"} 0 1573227495298
+collectd_tcpconns_tcp_connections{tcpconns="all",type="FIN_WAIT2",instance="myhostfqdn"} 0 1573227495298
+collectd_tcpconns_tcp_connections{tcpconns="all",type="LAST_ACK",instance="myhostfqdn"} 0 1573227495298
+collectd_tcpconns_tcp_connections{tcpconns="all",type="LISTEN",instance="myhostfqdn"} 7 1573227495298
+collectd_tcpconns_tcp_connections{tcpconns="all",type="SYN_RECV",instance="myhostfqdn"} 0 1573227495298
+collectd_tcpconns_tcp_connections{tcpconns="all",type="SYN_SENT",instance="myhostfqdn"} 0 1573227495298
+collectd_tcpconns_tcp_connections{tcpconns="all",type="TIME_WAIT",instance="myhostfqdn"} 645 1573227495298
+# HELP collectd_uptime write_prometheus plugin: 'uptime' Type: 'uptime', Dstype: 'gauge', Dsname: 'value'
+# TYPE collectd_uptime gauge
+collectd_uptime{instance="myhostfqdn"} 21952785 1573227495296
+
+# collectd/write_prometheus 5.8.1 at myhostfqdn
